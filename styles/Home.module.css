@@ -1,0 +1,56 @@
+.main {
+  min-height: calc(100vh - 65px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  background-color: #f0fdf4;
+}
+
+.hero {
+  max-width: 650px;
+  text-align: center;
+}
+
+.eyebrow {
+  margin-bottom: 1rem;
+  color: #166534;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.hero h1 {
+  margin: 0;
+  color: #14532d;
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  line-height: 1.1;
+}
+
+.description {
+  max-width: 550px;
+  margin: 1.5rem auto 2rem;
+  color: #4b5563;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.9rem 1.6rem;
+  border-radius: 8px;
+  background-color: #166534;
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #14532d;
+}
+
+.button:focus-visible {
+  outline: 3px solid #86efac;
+  outline-offset: 3px;
+}
